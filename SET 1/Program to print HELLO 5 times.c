@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 int main(void)
 {
-  int i,num;
-  scanf("%d",&num);
-  for(i=1;i<=num;i++,printf("\n"))
+  int j,number;
+  scanf("%d",&number);
+  for(j=1;j<=number;j++,printf("\n"))
   {
   	printf("HELLO");
   }
